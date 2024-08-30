@@ -10,15 +10,22 @@ int main(){
     printf("\nDigite sua idade: ");
     scanf("%d", &idade);
 
-    printf("\nDigite seu peso (metros):");
+    printf("\nDigite sua estrutura (metros):");
     scanf("%f", &estatura);
 
+    printf("\nDigite seu peso (kg):");
+    scanf("%f", &peso);
+
     printf("\n\n\n=====================\n");
-    printf("Sexo: %c", sexo);
-    printf("Idade: %d", idade);
-    printf("Estrutura: %5.2f", estatura);
-    printf("Peso: %6.2f", peso);
-    
+    printf("\nSexo: %c", sexo);
+    printf("\nIdade: %d", idade);
+    printf("\nEstrutura: %5.2f", estatura);
+    printf("\nPeso: %6.2f", peso);
+
+    float imc = peso / (estatura * estatura );
+
+    printf("\nIMC é: %6.2f", imc); 
+    printf("\n======================\n");
     
     return 0;
 }
