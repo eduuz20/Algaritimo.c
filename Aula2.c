@@ -22,18 +22,18 @@ int main() {
     } 
     else if (operacao == '-') {
         printf("Operação escolhida foi a subtração\n");
-        int soma = n1 - n2;
-        printf("%\n", soma);
+        int sub = n1 - n2;
+        printf("%\n", sub);
     } 
     else if (operacao == '*') {
         printf("Operação escolhida foi a multiplicação\n");
-        int soma = n1 * n2;
-        printf("%\n", soma);
+        int mul = n1 * n2;
+        printf("%\n", mul);
     } 
     else if (operacao == '/') {
         printf("Operação escolhida foi a divisão\n");
-        int soma = n1 / n2;
-        printf("%\n", soma);
+        int div = n1 / n2;
+        printf("%\n", div);
     } 
     else {
         printf("Por favor, tente novamente digitando os digitos corretos\n");
