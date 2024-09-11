@@ -25,7 +25,7 @@ int main() {
 int peden(int maximo) {
     int n;
     do {
-        printf("Quando numeros vai digitar (0- %2d): ",maximo);
+        printf("Quando numeros vai digitar (0 - %2d): ",maximo);
         scanf("%d", &n);
         if(n<1 || n > maximo) printf("\nDigita certo boca aberta! %d nao e um valor valido...\n",n);
 

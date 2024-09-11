@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+    display: flex;
+    width: 10%; /* ou qualquer tamanho desejado */
+    margin: 0 auto;
+}
+
+.num1 {
+    color: red;
+}
+
+h5 {
+    color: aquamarine;
+
+}
+
+p {
+    color: blueviolet;
+}
